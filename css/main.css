@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+    /*background black é so para ver se esta tudo certo*/
+}
+ul{
+    padding: 0px !important;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #00963e;
+    height: 70px;
+ /*   box-shadow: -1px 1px 20px 3px rgba(255, 0, 255, 0.911);
+    deixa sombra no background
+ */
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    /* Para deixar centralidado com a barra margin-left: 40px; */
+    float: left;
+    width: 70%;
+    padding: 0px;
+}
+.redes-sociais ul li{
+   /* margin-top: -5px; */
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.redes-sociais{
+    width: 25%;
+    float: right;
+}
+.header-2{
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+/*box-shadow:-2px 0px 10px 5px rgba(0, 255, 128, 0.911); 
+    deixa a parte de trás com sombra
+*/ 
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    /*height: 30px;*/
+}
+.menu ul li :hover{
+    padding-bottom: 29px;
+    border-bottom: 3px solid #00bac6;
+}
+.menu ul li a:hover{
+    color:#00bac6;
+}
+.menu ul li a{ 
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+.busca{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+.busca input{
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px;
+    border: 1px solid #d6d6d6;
+    height: 10px;
+    padding: 14px;
+    width: 190px;
+    margin-top: 10px;
+    /*margin top -34p estava dando aqui mass tireo e botei o dobro no .busca (professor falou q fica ruim mas so assim deu)*/
+    /*ver de novo video aula, se tem algo errado*/
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
